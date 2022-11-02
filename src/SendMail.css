@@ -31,7 +31,6 @@
   background-color: #3079ed !important;
   text-transform: capitalize !important;
   margin: 15px !important;
-  color: white;
 }
 
 .sendMail__close {
@@ -42,6 +41,13 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+}
+
+.sendMail__error {
+  background-color: white;
+  color: red;
+  text-align: right;
+  padding: 2px;
 }
 
 .sendMail > form > input {
