@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom"
+import SendMail from './SendMail'
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
             <Route path="/" element={<EmailList />} />
           </Routes>
         </div>
+
+        <SendMail />
       </div>
     </Router>
   )
